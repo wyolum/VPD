@@ -11,7 +11,7 @@ SoftwareSerial ez_key_ser(A5, A4); // RX, TX
 EasyVR easyvr(easy_vr_ser);
 
 int8_t bits = 4;
-int8_t set = 0;
+int8_t set = 2;
 int8_t group = 0;
 uint32_t mask = 0;  
 uint8_t train = 0;
